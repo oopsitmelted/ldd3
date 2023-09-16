@@ -77,7 +77,7 @@ struct bus_type ldd_bus_type = {
 /*
  * Export a simple attribute.
  */
-static ssize_t version_show(struct bus_type *bus, char *buf)
+static ssize_t version_show(const struct bus_type *bus, char *buf)
 {
 	return snprintf(buf, PAGE_SIZE, "%s\n", Version);
 }

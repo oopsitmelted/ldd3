@@ -25,7 +25,7 @@
 #include <linux/hdreg.h>	/* HDIO_GETGEO */
 #include <linux/kdev_t.h>
 #include <linux/vmalloc.h>
-#include <linux/genhd.h>
+//#include <linux/genhd.h>
 #include <linux/blkdev.h>
 #include <linux/buffer_head.h>	/* invalidate_bdev */
 #include <linux/bio.h>
